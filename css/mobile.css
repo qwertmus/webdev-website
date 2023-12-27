@@ -1,0 +1,47 @@
+
+
+
+.headerContainer {
+    background-color: #CACACA; 
+    height: auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+
+}
+
+h1 {
+    padding-left: 32%;
+    margin: 0; 
+}
+
+
+
+header {
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-between;   
+}
+
+.mainNav menu {
+    list-style: none; 
+    display: flex; 
+    padding: 0;
+    margin: 0;
+}
+
+.mainNav menu li {
+    margin-left: auto;
+    margin-right: 15px; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    border-radius: 5px; 
+    background-color: rgb(116, 181, 255);
+}
+
+
+body {
+background-color:  #34344C;
+
+}
