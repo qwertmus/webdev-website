@@ -1,5 +1,5 @@
 
-
+/* header menu */
 
 .headerContainer {
     background-color: #CACACA; 
@@ -49,7 +49,39 @@ background-color:  #34344C;
 }
 
 
-  .InfoSection {
-    background-color: brown;
-  }
+
+/* staff info page */
+
+.container_staff {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.InfoSectionColumn {
+    flex: 1;
+}
+
+.InfoSection {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.InfoSection:last-child {
+    border-right: none;
+}
+
+.headliner {
+    font-size: 140%;
+}
+
+
+
   
+/* footer */
+footer{
+    text-align: center;
+
+}
