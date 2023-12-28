@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +9,7 @@
       href="css/desktop.css"
       media="only screen and (min-width : 720px)"
     />
-    <title>Document</title>
+    <title>Student information</title>
 </head>
 <body>
 <?php
@@ -22,5 +21,4 @@
     include("includes/footer.php");
     ?>
 </footer>
-
 </html>

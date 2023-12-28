@@ -8,15 +8,12 @@
     justify-content: center; 
     align-items: center; 
     width: 100%;
-
 }
 
-h1 {
-    padding-left: 32%;
+.headerContainer h1 {
+    padding-left: 40%;
     margin: 0; 
 }
-
-
 
 header {
     padding: 20px; 
@@ -40,8 +37,19 @@ header {
     background-color: rgb(116, 181, 255);
 }
 
+.mainNav menu li a:active{
+    color: aqua;
+}
+.mainNav menu li a:hover{
+    color: black;
+}
 
 body {
 background-color:  #34344C;
-
 }
+
+
+  .InfoSection {
+    background-color: brown;
+  }
+  
