@@ -37,7 +37,7 @@
 
     <div class="InfoSectionColumn">
         
-        <img src="images\IMG_1087.jpeg" alt="teachers talking to student" height=100% width=60%>
+      
         
     </div>
   </main>

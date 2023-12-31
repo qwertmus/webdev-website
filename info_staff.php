@@ -1,26 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/mobile.css" />
-    <link
-      rel="stylesheet"
-      href="css/desktop.css"
-      media="min-width : 1070px"
-      min-width:  1
-    />
-    <title>Staff information</title>
+  <title>Mobile First Layout</title>
+  <link rel="stylesheet" href="css/mobile.css">
 </head>
-<div class="container">
-<header class="header">
-<?php
+<body>
+  <header>
+  <?php
     include("includes/header.php");
-?>
-</header>
-<body class="main">
+    ?>
+  </header>
 
-<div class="container_staff">
+  <main>
+  <div class="container_staff">
         <div class="InfoSectionColumn">
             <div class="InfoSection">
             <img src="images/IMG_1808.jpeg" alt="Building side in the sun" width=100% height=100%>
@@ -83,11 +75,12 @@
         
     </div>
 </div>
-</body>
-<footer class="footer">
-    <?php
+  </main>
+
+  <footer>
+  <?php
     include("includes/footer.php");
     ?>
-</footer>
-</div>
+  </footer>
+</body>
 </html>

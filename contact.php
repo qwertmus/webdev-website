@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/mobile.css" />
-    <link
-      rel="stylesheet"
-      href="css/desktop.css"
-      media="only screen and (min-width : 720px)"
-    />
-    <title>Contact us</title>
+  <title>Mobile First Layout</title>
+  <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
-<?php
+  <header>
+  <?php
     include("includes/header.php");
     ?>
-</body>
-<footer>
-    <?php
+  </header>
+
+  <main>
+
+  </main>
+
+  <footer>
+  <?php
     include("includes/footer.php");
     ?>
-</footer>
+  </footer>
+</body>
 </html>
