@@ -36,9 +36,10 @@
     </div>
 
     <div class="InfoSectionColumn">
-        
-      
-        
+        <div class="InfoSection">
+        <img src="images\IMG_1087.jpeg" alt="teachers talking to student" height=60% width=49%>
+        <img src="images\IMG_1089.jpeg" alt="professor teaching class" height=60% width=49%>
+        </div>
     </div>
   </main>
 
