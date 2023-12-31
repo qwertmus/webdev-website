@@ -1,25 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/mobile.css" />
-    <link
-      rel="stylesheet"
-      href="css/desktop.css"
-      media="only screen and (min-width : 720px)"
-    />
-    <title>Staff information</title>
+  <title>Mobile First Layout</title>
+  <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
-<?php
+  <header>
+  <?php
     include("includes/header.php");
-?>
-<div class="container_staff">
+    ?>
+  </header>
+
+  <main>
+  <div class="container_staff">
         <div class="InfoSectionColumn">
             <div class="InfoSection">
-
-            </div>
+            <img src="images/IMG_1808.jpeg" alt="Building side in the sun" width=100% height=100%>
+            <img src="images\20230829_111351.jpg" alt="Building side in the sun" width=100% height=100%>
+            </div> 
         </div>  
     
         <div class="InfoSectionColumn">
@@ -50,7 +48,13 @@
             They also run the staff helpdesk.<br>
             </div>
 
-            <div class="InfoSection">
+
+        </div>
+    
+    <div class="InfoSectionColumn">
+        <div class="InfoSection">
+        <img src="images\cantor-gallery.jpg" alt="cantor outside" width=100% height=100%>
+        <div class="InfoSection">
             <h1 class="headliner">Marketing Services</h1><br>
             The Marketing Team will help promote events and new courses. They will help with press 
             release preparation.<br>
@@ -68,17 +72,15 @@
             enquiries via the main helpdesk.<br>
             </div>
         </div>
-    
-    <div class="InfoSectionColumn">
-        <div class="InfoSection">
-            
-        </div>
+        
     </div>
 </div>
-</body>
-<footer>
-    <?php
+  </main>
+
+  <footer>
+  <?php
     include("includes/footer.php");
     ?>
-</footer>
+  </footer>
+</body>
 </html>

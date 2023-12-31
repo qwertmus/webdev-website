@@ -1,0 +1,46 @@
+
+
+.headerContainer {
+    background-color: #CACACA; 
+    height: auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+}
+
+.headerContainer h1 {
+    padding-left: 40%;
+    margin: 0; 
+}
+
+header {
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-between;   
+}
+
+.mainNav menu {
+    list-style: none; 
+    display: flex; 
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+
+.mainNav menu li {
+    margin-left: auto;
+    margin-right: 15px; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    border-radius: 5px; 
+    background-color: rgb(116, 181, 255);
+}
+
+.mainNav menu li a:visited{
+    color: rgb(0, 0, 0);
+}
+.mainNav menu li a:hover{
+    color: rgb(25, 0, 255);
+    font-size: larger;
+}
