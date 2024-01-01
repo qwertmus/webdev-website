@@ -3,6 +3,7 @@
 <head>
   <title>Mobile First Layout</title>
   <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 768px)">
 </head>
 <body>
   <header>
