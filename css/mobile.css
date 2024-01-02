@@ -24,6 +24,9 @@ main {
   padding: 20px;
 }
 
+img {
+  border: px solid black; 
+}
 
 
 /* header */

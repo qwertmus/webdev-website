@@ -1,6 +1,6 @@
 
   <div class="headerContainer">
-  <img src="images\logo.png" alt="cantor college logo" height=90% width=8%>
+  <img src="images\logo.png" alt="cantor college logo" height=90% width=8% class="logo">
 
 
           <div class="topBar">               
