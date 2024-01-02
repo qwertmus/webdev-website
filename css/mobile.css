@@ -1,4 +1,4 @@
-/* mobile first */
+/* overall */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -15,6 +15,7 @@ header, footer {
   padding: 20px;
 }
 
+
 main {
   flex: 1; 
   display: flex;
@@ -22,10 +23,6 @@ main {
   justify-content: space-around;
   align-content: flex-start; 
   padding: 20px;
-}
-
-img {
-  border: px solid black; 
 }
 
 
@@ -174,6 +171,4 @@ header {
 
 /* footer */
 
-.footer{
-  flex-direction: row;
-}
+
