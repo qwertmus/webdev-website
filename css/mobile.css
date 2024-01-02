@@ -169,6 +169,39 @@ header {
 }
 
 
-/* footer */
+/* homepage */
 
 
+.zoomIn-img {
+  transition: transform 0.5s ease;
+}
+
+.zoomIn-img:hover {
+  transform: scale(1.1); /* increases size by 1.1x */
+}
+
+#bgcChange {
+  transition: background-color 2s ease; 
+}
+
+
+/* table */
+
+
+.tablelisting{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #f2a903;
+  margin-left: 15px; 
+  border: 1px solid #3a1e41;
+  background-color: #513e0d;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tableCourseListing{
+  margin-left: 15px; 
+  border: 1px solid #513e0d;
+  background-color: #9e9e9e;  
+  padding: 10px;
+  border-radius: 5px;
+}

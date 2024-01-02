@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/mobile.css">
   <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 768px)">
-  <title>Mobile First Layout</title>
+  <script src="javascript\javascript.js" defer></script>
+  <title>Learning Resources at Cantor College</title>
 </head>
 <body>
   <header>

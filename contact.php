@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/mobile.css">
   <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 768px)">
   <script src="javascript\javascript.js" defer></script>
-  <title>Mobile First Layout</title>
+  <title>Contact Us</title>
 </head>
 <body>
   <header>
