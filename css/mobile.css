@@ -205,3 +205,42 @@ header {
   padding: 10px;
   border-radius: 5px;
 }
+
+.tableCourseListing a{
+  color: rgb(0, 0, 0);
+ 
+}
+
+.tableCourseListing a:hover{
+  color: #f2a903;
+  font-size: larger;
+}
+
+
+/* forum */
+
+input[type="text"], textarea {
+  width: 80%;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 20%;
+}
+
+input[type="submit"] {
+  padding: 8px 16px;
+  background-color: #f2a903;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #292823;
+}
+
+input[type="text"]:focus {
+  outline: 2px solid #f2a903; 
+}
+
+textarea:focus {
+  outline: 2px solid #f2a903; 
+}

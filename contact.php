@@ -27,6 +27,17 @@
               Fax: (01321) 2340 236<br>
               Email: info@cantorcollege.ac.uk<br>
             </div>
+            <div class="InfoSection">
+            <form id="message-form" action="#" method="post">
+            <label for="username">Name:</label><br>
+            <input type="text" id="username" name="username" required><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea type="text" id="message" name="message" rows="4" required></textarea><br>
+            <input type="submit" value="Post Message">
+            </div>
+        </form>
   </div>
   <div class="InfoSectionColumn">
     <img id="zoomIntoImg" src="images\872SHUSpaceCitymap.jpg" alt="" width=100% onclick="toggleZoom()">

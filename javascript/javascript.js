@@ -31,7 +31,7 @@ function bgcChanging() {
 
 function startColorChange() {
     bgcChanging(); 
-  setInterval(bgcChanging, 2000); // every 3 sec a colour changes to main on homepage
+  setInterval(bgcChanging, 2000); // every 2 sec a colour changes to main on homepage
 }
 
 document.addEventListener("DOMContentLoaded", startColorChange);

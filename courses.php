@@ -1,10 +1,10 @@
 <?php 
 require_once('includes/config.php');
-$queryCoursesComputing = "SELECT CourseTitle,CourseType,CourseAwardName,StudyLength FROM courses WHERE NoLongerRecruiting = 0 ORDER BY CourseID ASC LIMIT 0,17";
+$queryCoursesComputing = "SELECT * FROM courses WHERE NoLongerRecruiting = 0 ORDER BY CourseID ASC LIMIT 0,17";
 $resultsCoursesComputing = $mysqli->query($queryCoursesComputing);
-$queryCoursesDesign = "SELECT CourseTitle,CourseType,CourseAwardName,StudyLength FROM courses ORDER BY CourseID ASC LIMIT 18,24";
+$queryCoursesDesign = "SELECT * FROM courses ORDER BY CourseID ASC LIMIT 18,24";
 $resultsCoursesDesign = $mysqli->query($queryCoursesDesign);
-$queryCoursesUnavailable = "SELECT CourseTitle,CourseType,CourseAwardName,StudyLength,CourseSubject FROM courses WHERE NoLongerRecruiting = 1 ORDER BY CourseID ";
+$queryCoursesUnavailable = "SELECT * FROM courses WHERE NoLongerRecruiting = 1 ORDER BY CourseID ";
 $resultsCoursesUnavailable = $mysqli->query($queryCoursesUnavailable);
 ?>
 
@@ -39,7 +39,7 @@ $resultsCoursesUnavailable = $mysqli->query($queryCoursesUnavailable);
             <?php
                 while ($obj = $resultsCoursesComputing->fetch_object()){
                   echo "<tr>";
-                  echo "<td class='tableCourseListing'>{$obj->CourseTitle}</td>";
+                  echo "<td class='tableCourseListing'><a href=\"course_details.php?CourseID={$obj->CourseID}\">{$obj->CourseTitle}</a></td>";
                   echo "<td class='tableCourseListing'>{$obj->CourseType}</td>";
                   echo "<td class='tableCourseListing'>{$obj->CourseAwardName}</td>";
                   
@@ -63,7 +63,7 @@ $resultsCoursesUnavailable = $mysqli->query($queryCoursesUnavailable);
             <?php
                 while ($obj = $resultsCoursesDesign->fetch_object()){
                   echo "<tr>";
-                  echo "<td class='tableCourseListing'>{$obj->CourseTitle}</td>";
+                  echo "<td class='tableCourseListing'><a href=\"course_details.php?CourseID={$obj->CourseID}\">{$obj->CourseTitle}</a></td>";
                   echo "<td class='tableCourseListing'>{$obj->CourseType}</td>";
                   echo "<td class='tableCourseListing'>{$obj->CourseAwardName}</td>";
                   
@@ -84,7 +84,7 @@ $resultsCoursesUnavailable = $mysqli->query($queryCoursesUnavailable);
             <?php
                 while ($obj = $resultsCoursesUnavailable->fetch_object()){
                   echo "<tr>";
-                  echo "<td class='tableCourseListing'>{$obj->CourseTitle}</td>";
+                  echo "<td class='tableCourseListing'><a href=\"course_details.php?CourseID={$obj->CourseID}\">{$obj->CourseTitle}</a></td>";
                   echo "<td class='tableCourseListing'>{$obj->CourseType}</td>";
                   echo "<td class='tableCourseListing'>{$obj->CourseAwardName}</td>";
                   
