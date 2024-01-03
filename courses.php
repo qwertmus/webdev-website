@@ -26,73 +26,66 @@ $resultsCoursesUnavailable = $mysqli->query($queryCoursesUnavailable);
   </header>
 
   <main>
-     <div class="InfoSectionColumn">
-     
+     <div class="InfoSectionColumn">   
         <h1 class="Topic">Computing Courses</h1>
-            <table>
-            <tr>
-            <td class="tablelisting">Courses</td>
-            <td class="tablelisting">Course Type</td>
-            <td class="tablelisting">Course Award</td>
-            
-            </tr>
-            <?php
-                while ($obj = $resultsCoursesComputing->fetch_object()){
-                  echo "<tr>";
-                  echo "<td class='tableCourseListing'><a href=\"course_details.php?CourseID={$obj->CourseID}\">{$obj->CourseTitle}</a></td>";
-                  echo "<td class='tableCourseListing'>{$obj->CourseType}</td>";
-                  echo "<td class='tableCourseListing'>{$obj->CourseAwardName}</td>";
-                  
-                  echo "</tr>";
-                }
-            ?>
+                <table>
+                    <tr>
+                      <th class="tablelisting">Courses</th>
+                      <th class="tablelisting">Course Type</th>
+                      <th class="tablelisting">Course Award</th>
+                    </tr>
+                    <?php
+                    while ($obj = $resultsCoursesComputing->fetch_object()){
+                      echo "<tr>";
+                      echo "<td class='tableCourseListing'><a href=\"course_details.php?CourseID={$obj->CourseID}\">{$obj->CourseTitle}</a></td>";
+                      echo "<td class='tableCourseListing'>{$obj->CourseType}</td>";
+                      echo "<td class='tableCourseListing'>{$obj->CourseAwardName}</td>";
+                      echo "</tr>";
+                    }
+                    ?>
+              </table>
 
-            </table>
          
      </div>
      <div class="InfoSectionColumn">
      <div>           
         <h1 class="Topic">Art and Design Courses</h1>
-            <table>
-            <tr>
-            <td class="tablelisting">Courses</td>
-            <td class="tablelisting">Course Type</td>
-            <td class="tablelisting">Course Award</td>
-       
-            </tr>
-            <?php
+              <table>
+                <tr>
+                  <th class="tablelisting">Courses</th>
+                  <th class="tablelisting">Course Type</th>
+                  <th class="tablelisting">Course Award</th>
+                </tr>
+                <?php
                 while ($obj = $resultsCoursesDesign->fetch_object()){
                   echo "<tr>";
                   echo "<td class='tableCourseListing'><a href=\"course_details.php?CourseID={$obj->CourseID}\">{$obj->CourseTitle}</a></td>";
                   echo "<td class='tableCourseListing'>{$obj->CourseType}</td>";
                   echo "<td class='tableCourseListing'>{$obj->CourseAwardName}</td>";
-                  
                   echo "</tr>";
                 }
-            ?>
-
+                ?>
             </table>
+
         </div>      
         <h1 class="Topic">Unavailable Courses</h1>
-            <table>
-            <tr>
-            <td class="tablelisting">Courses</td>
-            <td class="tablelisting">Course Type</td>
-            <td class="tablelisting">Course Award</td>
-           
-            </tr>
-            <?php
-                while ($obj = $resultsCoursesUnavailable->fetch_object()){
-                  echo "<tr>";
-                  echo "<td class='tableCourseListing'><a href=\"course_details.php?CourseID={$obj->CourseID}\">{$obj->CourseTitle}</a></td>";
-                  echo "<td class='tableCourseListing'>{$obj->CourseType}</td>";
-                  echo "<td class='tableCourseListing'>{$obj->CourseAwardName}</td>";
-                  
-                  echo "</tr>";
-                }
-            ?>
+              <table>
+                  <tr>
+                    <th class="tablelisting">Courses</th>
+                    <th class="tablelisting">Course Type</th>
+                    <th class="tablelisting">Course Award</th>
+                  </tr>
+                  <?php
+                  while ($obj = $resultsCoursesUnavailable->fetch_object()){
+                    echo "<tr>";
+                    echo "<td class='tableCourseListing'><a href=\"course_details.php?CourseID={$obj->CourseID}\">{$obj->CourseTitle}</a></td>";
+                    echo "<td class='tableCourseListing'>{$obj->CourseType}</td>";
+                    echo "<td class='tableCourseListing'>{$obj->CourseAwardName}</td>";
+                    echo "</tr>";
+                  }
+                  ?>
+              </table>
 
-            </table>
            
      </div>
   </main>

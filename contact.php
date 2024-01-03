@@ -40,7 +40,7 @@
         </form>
   </div>
   <div class="InfoSectionColumn">
-    <img id="zoomIntoImg" src="images\872SHUSpaceCitymap.jpg" alt="" width=100% onclick="toggleZoom()">
+    <img id="zoomIntoImg" src="images\872SHUSpaceCitymap.jpg" alt="Layout of university" width=100% onclick="toggleZoom()">
     <div class="InfoSection">
       Press to zoom in and out
     </div>

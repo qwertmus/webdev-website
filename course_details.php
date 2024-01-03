@@ -53,16 +53,12 @@ $obj = $result->fetch_object();
                     echo "</div>";
                     echo "</div>";
                 ?>
-    
-                
-
-
 
                 <table>
                 <tr>
-                <td class="tablelisting">Course Award</td>
-                <td class="tablelisting">UCAS Code</td>
-                <td class="tablelisting">UCAS points</td>
+                <th class="tablelisting">Course Award</th>
+                <th class="tablelisting">UCAS Code</th>
+                <th class="tablelisting">UCAS points</th>
                 
                 </tr>
                 <?php   
@@ -76,9 +72,9 @@ $obj = $result->fetch_object();
                 </table>
                 <table>
                 <tr>     
-                <td class="tablelisting">Year of entry</td> 
-                <td class="tablelisting">Attendance mode</td>
-                <td class="tablelisting">Study Length</td>
+                <th class="tablelisting">Year of entry</th> 
+                <th class="tablelisting">Attendance mode</th>
+                <th class="tablelisting">Study Length</th>
 
                 </tr>
                 <?php    
@@ -92,9 +88,9 @@ $obj = $result->fetch_object();
                 <table>
                 <tr>      
 
-                <td class="tablelisting">Foundation Year</td>
-                <td class="tablelisting">Course Subject</td>
-                <td class="tablelisting">Recruiting</td>
+                <th class="tablelisting">Foundation Year</th>
+                <th class="tablelisting">Course Subject</th>
+                <th class="tablelisting">Recruiting</th>
                 </tr>
                 <?php                 
     

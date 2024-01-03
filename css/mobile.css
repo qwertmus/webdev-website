@@ -16,6 +16,7 @@ header, footer {
 }
 
 
+
 main {
   flex: 1; 
   display: flex;
@@ -89,13 +90,17 @@ header {
   background-color: rgb(116, 181, 255);
 
 }
+.mainNav menu li a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
 
 .mainNav menu li a:visited {
   color: rgb(0, 0, 0);
 }
 
 .mainNav menu li a:hover {
-  color: rgb(25, 0, 255);
+  color: rgb(255, 255, 255);
   font-size: larger;
 }
 
@@ -243,4 +248,12 @@ input[type="text"]:focus {
 
 textarea:focus {
   outline: 2px solid #f2a903; 
+}
+
+
+
+/* footer */
+
+.footerLinks a{
+  color:rgb(173, 255, 177);
 }
